@@ -1,11 +1,10 @@
 package main
 
 import (
-	_ "monitor-master/routers"
 	"github.com/astaxie/beego"
+	_ "monitor-master/routers"
 )
 
 func main() {
 	beego.Run()
 }
-
